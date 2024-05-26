@@ -290,7 +290,7 @@ int main() {
     elapsedTime = (end.QuadPart - start.QuadPart) * 1000.0 / frequency.QuadPart;
     cout << "特殊高斯消去法时间: " << elapsedTime << " ms." << std::endl;
     //打印结果
-    Print();
+    //Print();
 
     //-----------------------------------------------------------------
 
@@ -402,7 +402,7 @@ int main() {
     // 计算经过的时间
     elapsedTime = (end.QuadPart - start.QuadPart) * 1000.0 / frequency.QuadPart;
     cout << "多线程优化特殊高斯消去法时间: " << elapsedTime << " ms." << std::endl;
-    Print();
+    //Print();
 
 
     return 0;
